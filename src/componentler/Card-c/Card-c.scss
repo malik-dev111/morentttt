@@ -1,0 +1,43 @@
+div {
+    .card-c {
+        background-color: #1A202C;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        color: white;
+        .card-c-title {
+
+            font-family: 'Plus Jakarta Sans';
+            font-style: normal;
+            font-weight: 700;
+            line-height: 143%;
+            letter-spacing: -0.02em;
+            color: #FFFFFF;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+            display: flex;
+            justify-content: space-between;
+            img{
+                width: 62px;
+                height: 80px;
+            }
+        }
+        .card-c-p {
+            img{
+            width: 10px;
+        }
+    }
+    .div-bottom{
+        border-bottom: 1px solid #E3E7EF33;
+    }
+    .card-c-info-c{
+        display: flex;
+        justify-content: space-around;
+        .img{
+            width: 40px;
+        }
+    }
+    }
+}

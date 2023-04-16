@@ -1,0 +1,55 @@
+
+.header-c {
+        h3 {
+                font-size: 16px;
+                font-family: popins, sans-serif;
+                color: gray;
+        }
+
+        .header {
+                width: 30%;
+                height: 400px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                gap: 12px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+                .header-title {
+                        display: flex;
+                }
+
+                .header-button {
+                        button {
+                                display: flex;
+                                align-items: flex-start;
+                                padding: 28px 56px;
+                                gap: 10px;
+                                background: #3563E9;
+                                border-radius: 30px;
+                                color: #fff;
+                                font-size: 16px;
+                        }
+                }
+
+                .header-category {
+                        display: flex;
+                        justify-content: space-between;
+
+                        .header-card {
+                                display: flex;
+
+                                img {
+                                        width: 20px;
+                                        height: 20px;
+                                }
+
+                                h1 {
+                                        font-size: 16px;
+                                }
+                        }
+                }
+        }
+}
